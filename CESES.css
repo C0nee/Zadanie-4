@@ -1,0 +1,16 @@
+.UI{
+    width: 20%;
+    float: left;
+    background-color: blue;
+}
+.SRODEK{
+    width: 60%;
+    float: left;
+}
+.EO{
+    width: 20%;
+    float: left;
+}
+header{
+    text-align: center;
+}
