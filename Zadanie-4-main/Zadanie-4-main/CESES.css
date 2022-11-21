@@ -1,0 +1,53 @@
+.UI{
+    width: 20%;
+    float: left;
+    background-color: blue;
+}
+.SRODEK{
+    width: 50%;
+    float: left;
+    background-color: chocolate;
+}
+.EO{
+    width: 30%;
+    float: right;
+    background-color: chartreuse;
+}
+header{
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    .UI{
+        float: none;
+        width: 100%;
+    }
+    .EO{
+        background-color: brown;
+        width: 100%;
+        
+    }
+    img{
+        width: 31vw;
+        height: auto;
+        margin: 2px;
+    }
+    p,h1{
+        font-size: small;
+    }
+header{
+    font-size: medium;
+    height: 5%;
+}
+.SRODEK{
+    
+    text-align: center;
+    width: 100%;
+    background-color: blueviolet;
+}
+  }
